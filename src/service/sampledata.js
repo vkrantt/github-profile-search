@@ -1,0 +1,178 @@
+const users = [
+    {
+        name: "John Doe",
+        age: 28,
+        occupation: "Software Engineer",
+        bio: "Passionate software engineer with expertise in web development. Loves coding and building innovative solutions to real-world problems.",
+    },
+    {
+        name: "Emily Smith",
+        age: 32,
+        occupation: "Marketing Manager",
+        bio: "Experienced marketing professional specializing in digital marketing strategies. Enjoys creating engaging campaigns and analyzing data to drive results.",
+    },
+    {
+        name: "Michael Johnson",
+        age: 35,
+        occupation: "Graphic Designer",
+        bio: "Creative graphic designer with a keen eye for aesthetics and a passion for visual storytelling. Skilled in both print and digital design.",
+    },
+    {
+        name: "Sophia Anderson",
+        age: 24,
+        occupation: "Content Writer",
+        bio: "Versatile content writer with a knack for crafting compelling and informative articles. Enjoys researching and writing about a wide range of topics.",
+    },
+    {
+        name: "David Thompson",
+        age: 31,
+        occupation: "Financial Analyst",
+        bio: "Detail-oriented financial analyst with expertise in data analysis and forecasting. Enjoys helping businesses make informed financial decisions.",
+    },
+    {
+        name: "Olivia Wilson",
+        age: 29,
+        occupation: "UX Designer",
+        bio: "Passionate UX designer who loves creating intuitive and user-friendly digital experiences. Constantly seeking ways to improve usability and accessibility.",
+    },
+    {
+        name: "Daniel Rodriguez",
+        age: 27,
+        occupation: "Product Manager",
+        bio: "Experienced product manager with a strong background in agile development methodologies. Skilled in driving product strategy and leading cross-functional teams.",
+    },
+    {
+        name: "Ava Martinez",
+        age: 26,
+        occupation: "Social Media Manager",
+        bio: "Creative social media manager with expertise in developing and implementing effective social media strategies. Enjoys engaging with online communities.",
+    },
+    {
+        name: "William Harris",
+        age: 33,
+        occupation: "Sales Representative",
+        bio: "Results-driven sales representative with a proven track record of exceeding targets. Skilled in building relationships and negotiating deals.",
+    },
+    {
+        name: "Emma Clark",
+        age: 30,
+        occupation: "HR Consultant",
+        bio: "Dedicated HR consultant with expertise in talent acquisition and employee relations. Enjoys helping organizations build strong and motivated teams.",
+    },
+    {
+        name: "Alexander Lee",
+        age: 28,
+        occupation: "Data Scientist",
+        bio: "Analytical data scientist with a passion for uncovering insights and solving complex problems using data. Proficient in statistical analysis and machine learning.",
+    },
+    {
+        name: "Mia Turner",
+        age: 25,
+        occupation: "Front-end Developer",
+        bio: "Talented front-end developer with a strong foundation in HTML, CSS, and JavaScript. Enjoys creating visually appealing and responsive web interfaces.",
+    },
+    {
+        name: "James Baker",
+        age: 34,
+        occupation: "Project Manager",
+        bio: "Organized project manager with excellent leadership and communication skills. Experienced in overseeing projects from initiation to successful completion.",
+    },
+    {
+        name: "Charlotte Green",
+        age: 27,
+        occupation: "Event Planner",
+        bio: "Detail-oriented event planner with a flair for creating memorable experiences. Skilled in coordinating logistics and managing vendor relationships.",
+    },
+    {
+        name: "Benjamin Turner",
+        age: 29,
+        occupation: "Photographer",
+        bio: "Passionate photographer with a talent for capturing moments and telling stories through images. Experienced in various genres, including portraits and landscapes.",
+    },
+    {
+        name: "Grace Hill",
+        age: 31,
+        occupation: "PR Specialist",
+        bio: "Strategic PR specialist with a knack for building strong media relationships. Skilled in crafting impactful messaging and managing crisis communications.",
+    },
+    {
+        name: "Henry Scott",
+        age: 33,
+        occupation: "Architect",
+        bio: "Innovative architect with a passion for sustainable and functional design. Experienced in designing commercial and residential spaces.",
+    },
+    {
+        name: "Lily Baker",
+        age: 26,
+        occupation: "UI Designer",
+        bio: "Creative UI designer with an eye for clean and elegant design. Skilled in translating user requirements into visually appealing interfaces.",
+    },
+    {
+        name: "Samuel Wright",
+        age: 30,
+        occupation: "Business Analyst",
+        bio: "Analytical business analyst with expertise in data-driven decision making. Enjoys identifying business opportunities and optimizing processes.",
+    },
+    {
+        name: "Victoria Foster",
+        age: 29,
+        occupation: "Digital Strategist",
+        bio: "Strategic digital marketer with a focus on driving online growth and engagement. Skilled in leveraging data to optimize digital campaigns.",
+    },
+    {
+        name: "Christopher Davis",
+        age: 32,
+        occupation: "Lawyer",
+        bio: "Experienced lawyer specializing in corporate law. Dedicated to providing sound legal advice and ensuring clients' interests are protected.",
+    },
+    {
+        name: "Ella Edwards",
+        age: 27,
+        occupation: "Copywriter",
+        bio: "Versatile copywriter with a talent for crafting persuasive and engaging copy. Skilled in tailoring messaging to different target audiences.",
+    },
+    {
+        name: "Andrew Powell",
+        age: 31,
+        occupation: "Data Analyst",
+        bio: "Detail-oriented data analyst with expertise in data visualization and statistical analysis. Enjoys deriving insights to drive data-informed decisions.",
+    },
+    {
+        name: "Natalie Turner",
+        age: 28,
+        occupation: "Digital Illustrator",
+        bio: "Talented digital illustrator with a unique artistic style. Skilled in creating captivating visuals for various digital platforms.",
+    },
+    {
+        name: "Isaac Mitchell",
+        age: 33,
+        occupation: "Operations Manager",
+        bio: "Efficient operations manager with a focus on streamlining processes and maximizing productivity. Experienced in overseeing day-to-day operations.",
+    },
+    {
+        name: "Hailey Young",
+        age: 29,
+        occupation: "UI/UX Researcher",
+        bio: "Curious UI/UX researcher with a passion for understanding user behavior. Skilled in conducting user studies and generating actionable insights.",
+    },
+    {
+        name: "Ryan Walker",
+        age: 34,
+        occupation: "Financial Advisor",
+        bio: "Knowledgeable financial advisor with expertise in investment planning and wealth management. Dedicated to helping clients achieve their financial goals.",
+    },
+    {
+        name: "Stella Carter",
+        age: 26,
+        occupation: "Mobile App Developer",
+        bio: "Innovative mobile app developer with a focus on creating user-friendly and intuitive mobile applications. Experienced in both iOS and Android development.",
+    },
+    {
+        name: "Maxwell Turner",
+        age: 30,
+        occupation: "Digital Marketing Specialist",
+        bio: "Results-driven digital marketing specialist with expertise in SEO and content marketing. Skilled in driving organic traffic and improving online visibility.",
+    }
+];
+
+export default users

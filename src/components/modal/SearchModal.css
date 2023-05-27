@@ -1,0 +1,9 @@
+.modal-content {
+  background: none !important;
+  border: none !important;
+  margin-top: 103px !important;
+}
+.modal-backdrop.show {
+  background: #fff !important;
+  opacity: 0.8 !important;
+}
